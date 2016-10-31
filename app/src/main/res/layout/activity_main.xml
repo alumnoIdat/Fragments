@@ -16,14 +16,14 @@
     <fragment
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:name="android.support.v4.app.ListFragment"
-        android:id="@+id/fragment1"
-        android:layout_weight="0.5" />
+        android:id="@+id/izquierda"
+        android:layout_weight="0.5"
+        class="com.example.chango.fragments.Izquierda" />
 
     <fragment
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:name="android.support.v4.app.ListFragment"
-        android:id="@+id/fragment2"
-        android:layout_weight="0.5" />
+        android:id="@+id/derecha"
+        android:layout_weight="0.5"
+        class="com.example.chango.fragments.Derecha" />
 </LinearLayout>

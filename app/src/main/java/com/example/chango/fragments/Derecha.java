@@ -1,5 +1,6 @@
 package com.example.chango.fragments;
 
+import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,7 +11,7 @@ import android.widget.TextView;
  * Created by Chango on 30/10/2016.
  */
 
-public class Derecha {
+public class Derecha extends Fragment {
     private View rootView;
     private TextView txt;
 

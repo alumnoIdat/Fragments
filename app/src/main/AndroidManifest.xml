@@ -17,4 +17,20 @@
         </activity>
     </application>
 
+    <activity
+        android:name=".Izquierda" >
+        <intent-filter>
+            <action android:name="android.intent.action.Izquierda" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity
+        android:name=".Derecha" >
+        <intent-filter>
+            <action android:name="android.intent.action.Derecha" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
 </manifest>
